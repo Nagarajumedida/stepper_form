@@ -1,0 +1,67 @@
+.container {
+  width: 80%;
+  height: auto;
+  padding: 30px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 20px;
+  background-color: rgb(250, 248, 248);
+}
+
+
+.label {
+  width: 520px;
+}
+
+.genderLabel {
+  margin-left: -450px;
+}
+.statusLabel {
+  margin-left: -370px;
+}
+
+#btn {
+  display: flex;
+  column-gap: 10px;
+  margin-left: 160px;
+  margin-top: 20px;
+}
+
+.blood {
+  margin-top: 15px;
+  width: 520px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  text-align: left;
+}
+.inputlabel {
+  margin: 15px;
+}
+
+.radiobtn {
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+    
+  /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px) {
+  .maindiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /*Big smartphones [426px -> 600px]*/
+  .inputDiv {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .label {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+}
